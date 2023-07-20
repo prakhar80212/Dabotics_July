@@ -1,0 +1,80 @@
+ *{
+    margin: 0;
+    font-family: sans-serif;
+    outline: none;
+    background-color: rgb(247, 240, 240);
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(153, 4, 4);
+    box-sizing: border-box;
+    font-size: 20px;
+ }
+ .ac_button svg{
+    color: azure;
+ }
+ span{
+    background-color: cornsilk;
+    color: aliceblue;
+ }
+ .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .calculator{
+    border: 1px solid #717377;
+    padding: 15px;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    display:grid;
+    grid-template-columns:repeat(5,100px);
+   
+   
+    
+ }
+ input{
+    grid-column: span 5; 
+    width: 50vh;
+    border: none;
+    padding: 25px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(142, 142, 142);
+    font-size: 50px;
+    text-align: end;
+    cursor: pointer;
+    color: rgb(214, 118, 0);
+    background-color:cornsilk;
+    
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    margin: 10px;
+    width: 80px;
+    border: none;
+    box-shadow: 0px 3px 15px rgb(232, 143, 143) ;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-2px);
+}
+button:active:focus {
+    transform: translateY(2px);
+}
+button:focus{
+    box-shadow: darkorange;
+}
+.equal{
+    background-color: lightsalmon;
+}
+.equal:hover{
+    background-color: rgb(195, 44, 27);
+}
